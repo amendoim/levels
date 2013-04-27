@@ -1,22 +1,22 @@
 >wall=[-],pre=1,desc=2,gen=2,queen=2,king=2
 _______________   15x21
-               
-               
-               
-               
-               
-               
-               
-              
-               
-               
-               
-               
-               
-               
-               
-               
-               
+9             8
+=              
+9xxxxxxxxxxxxx 
+ --------++ 8x 
+  oo oo oo @@x 
+ xxxxxxxxxx##x 
+ = = = = = = = 
+                 
+                 
+                 
+                 
+                  
+                 
+                 
+                 
+      =--      
+             @@
                
                
                
@@ -25,24 +25,24 @@ _______________   <- line 24 is usually here
 
 >wall=[-],pre=2,desc=2,gen=2,queen=2,king=2
 _________________   17x23
-9      yoy      8
- xxxxxxxxxxxxxxx 
-rx            @xo
-rx      9     oxo
-rx            @xo
- xxxxxxx xxxxxxx 
- =      @  yoy  6
- xxxxxxx xxxxxxx 
-ox@            xr
-oxo     6      xr
-ox@            xr
- xxxxxxxxxxxxxxx 
- =             = 
+9               8
+=                
+9xxxxxxxxxxxxxxx 
+ ----------++ 8x 
+    oo oo oo @@x 
+ xxxxxxxxxxxx##x 
+ = = = = = = = = 
                  
                  
                  
                  
+                  
                  
+                 
+                 
+        =--      
+               @@
+                
                  
                  
                  
