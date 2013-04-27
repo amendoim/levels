@@ -34,9 +34,9 @@ ox     3@3     xo
 x=     333     =x
        3@3     
        333       
-        =        
-                  
-                  
+       3@3        
+       333         
+        =         
                   
                   
                   
@@ -47,7 +47,7 @@ x=     333     =x
                         
                  
                  
-ooo o                 
+                      
 _________________   <- line 51 is usually here
 
 === settings === (inherited from defaults or from above)

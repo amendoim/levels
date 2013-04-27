@@ -23,7 +23,7 @@ _______________   15x21
                
 _______________   <- line 24 is usually here
 
->wall=[-],pre=9,desc=5,gen=2,queen=2,king=2
+>wall=[-],pre=10,desc=5,gen=2,queen=2,king=2
 _________________   17x23
 9           8=  8
          x       
@@ -47,7 +47,7 @@ _________________   17x23
                         
                  
                  
-ooo oo                 
+                       
 _________________   <- line 51 is usually here
 
 === settings === (inherited from defaults or from above)

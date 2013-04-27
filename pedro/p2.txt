@@ -47,7 +47,7 @@ o o o o o o o o o
                  
                  
                  
-oo                 
+                 
 _________________   <- line 51 is usually here
 
 === settings === (inherited from defaults or from above)

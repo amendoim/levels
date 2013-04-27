@@ -1,54 +1,52 @@
 >wall=[-],pre=1,desc=2,gen=2,queen=2,king=2
-_______________   15x21
-               
-               
-               
-               
-               
-               
-               
-               
-               
-               
-               
-               
-               
-               
-               
-               
-               
-               
-               
-               
-               
-_______________   <- line 24 is usually here
+___________
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+___________  <- line 23
 
->wall=[-],pre=1,desc=2,gen=2,queen=2,king=2
+>wall=[],pre=1,desc=2,gen=2,queen=2,king=2
 _________________   17x23
-@@o          oooy
-######     ######
-*ooooooo@ooooooo*
-       =*=      
-                 
-                 
-                 
-                 
-                 
-                 
-                 
-                 
-                 
-                 
-                 
-                 
-                 
-                 
-                 
-                 
-                 
+ r r v v b b g g
+ vrv bvb gbg ogo
+ =v= =b= =g= =o= 
+ ::: ::: ::: :::   
+                  
+               
                  
                 
-_________________   <- line 51 is usually here
+                  
+             =?= 
+             ::: 
+                  
+         =%=
+         :::       
+                
+     =%=          
+     :::        
+             
+ =%=                
+ :::         
+             
+             
+_______________   <- line 24 is usually here
 
 === settings === (inherited from defaults or from above)
 wall=[-], -> walls: [left   -top    right]

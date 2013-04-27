@@ -28,8 +28,8 @@ _________________   17x23
 9               8
 =                
 9xxxxxxxxxxxxxxx 
- ------------++x 
-    oo oo oo rrx 
+ ----------++ 8x 
+    oo oo oo @@x 
  xxxxxxxxxxxx##x 
  = = = = = = = = 
                  
@@ -47,7 +47,7 @@ _________________   17x23
                  
                  
                  
-ooo ooo o        
+                 
 _________________   <- line 51 is usually here
 
 === settings === (inherited from defaults or from above)
