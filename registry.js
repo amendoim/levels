@@ -131,7 +131,7 @@ o.levelRegistry = [
   "2/mt-gox",
   "2/t-struct",
   "2/inside-job",
-  "--",
+  "2/rhythm",
   "--",
   "--",
   "--",
