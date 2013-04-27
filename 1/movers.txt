@@ -1,0 +1,71 @@
+>wall=[-],pre=1,desc=2,gen=2,queen=2,king=2
+_____________
+             
+             
+             
+            
+    xx=xx    
+   xooooox   
+   xorrrox   
+   =orrro=   
+   xorrrox  
+   xooooox  
+    xx=xx    
+             
+             
+             
+             
+             
+             
+             
+             
+             
+             
+             
+             
+_____________
+
+=== settings === (inherited from defaults or from above)
+wall=[-], -> walls: [left   -top    right]
+pre=1,    -> initial peace time
+desc=2,   -> descender period (all in seconds)
+gen=2,    -> generator period
+delay=0,  -> delta delay for each instance of descender and generator
+queen=2,  -> queen period
+king=2,   -> king period
+13=0      -> block 13 mode: 0) hides aim, 1) changes shoot angle, 2) jupiter gravity
+
+==== blocks ==== (levels: 15x21 for small screens and 17x23 for larger)
+r red
+o orange
+y yellow
+g green
+b blue
+i indigo
+v violet
+
+x solid grey
+# fixed
+- ball eater
+= mover
+: glue
+
+1 hit 1
+2 hit 2
+3 hit 3
+
+6 mirror left-top    /|
+7 mirror right-top  ---  |\   ___
+8 mirror left-bottom     ---   \|  ___
+9 mirror right-bottom              |/ 
+
+* attractor
+% spring
+@ bomb
+
+! descender
++ generator
+
+& queen
+$ king
+? 13
