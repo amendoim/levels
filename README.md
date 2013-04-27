@@ -1,2 +1,5 @@
-levels
+"levels gulang ah"
 ======
+Ang Buhay ng Gargantua at ng Pantagruel ay isang konektado serye ng limang nobelang nakasulat sa ika-16 siglo sa pamamagitan ng François Rabelais. Ito ay ang kuwento ng dalawang giants, isang ama, Gargantua at ang kanyang mga anak na lalaki Pantagruel at ang kanilang mga pakikipagsapalaran, na nakasulat sa isang nakakatawa, mapag-aksaya, satirical ugat. Teksto Nagtatampok ang magkano kagaspangan, scatological katatawanan, at karahasan. Listahan ng tahasang o bulgar insulto punan ilang kabanata. Ang censors ng kolehiyo de Sorbonne stigmatized ito bilang malaswa, at sa isang social klima ng pagtaas ng relihiyon aapi, ito ay itinuturing na may hinala, at contemporaries Iniwasan pagbanggit ito. Ayon sa Rabelais, ang konsepto ng kanyang higanteng Pantagruel, "Pantagruelism", ay may mga ugat sa "sa isang tiyak na kagalakan ng pag-iisip sa adobo ang nililibak ng mga bagay na hindi sinasadya" (Pranses: une certaine gaîté d'matalas na isip confite dans le mépris des choses fortuites).
+
+Rabelais ay pinag-aralan Sinaunang Griyego, at siya ay inilapat ito sa inventing daan-daan ng mga bagong salita sa teksto, ang ilan ay naging bahagi ng wikang Pranses. Palatinigan at mapanganib katatawanan makapal sa kanyang pagsusulat.
