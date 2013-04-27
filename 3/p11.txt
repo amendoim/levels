@@ -50,12 +50,11 @@ xxxxxxxxxxxxxxx
                 
 _________________   <- line 51 is usually here
 
-=== settings === (inherited from defaults or from above)
+=== settings === (inherited from defaults or from above, all times in seconds)
 wall=[-], -> walls: [left   -top    right]
 pre=1,    -> initial peace time
-desc=2,   -> descender period (all in seconds)
-gen=2,    -> generator period
-delay=0,  -> delta delay for each instance of descender and generator
+desc=2//,   -> descender period/delay/pre, delay/pre are optional
+gen=2//,    -> generator period/delay/pre, delay/pre are optional
 queen=2,  -> queen period
 king=2,   -> king period
 13=0      -> block 13 mode: 0) hides aim, 1) changes shoot angle, 2) jupiter gravity
