@@ -1,26 +1,26 @@
 >wall=[-],pre=1,desc=2,gen=2,queen=2,king=2
 _______________   15x21
-               
-               
-               
-               
-               
-               
-               
-              
-               
-               
-               
-               
-               
-               
-               
-               
-               
-               
-               
-               
-               
+@y@y@yy@yyy@yyy
+yy@yyyyyyyy@yyy
+yyyyyyyyyy@yyyy
+yyyyyyyyyyyyyyy
+yy@yyyyyyyyyyyy
+yyyyyyyyyyyyyyy
+yyyyyyyy@yyyyyy
+yyyyyyyyyyyyyyy
+yyyyyyyyyyyyyyy
+yyyyyyyyyyyyyyy
+yyyy@yyyyyyyyyy
+yyyyyyyyyyyyyyy
+yyyyyyyyyyyyyyy
+yyyyyyyyyyyyyyy
+yyyyyyyyyyyyyyy
+yyyyyyyyyyyyyyy
+yyyy@yyyyyyyyyy
+yyyyyyyyyyyyyyy
+yyyyyyyyyyyyyyy
+yyyyyyyyyyyyyyy
+yyyyyyyyyyyyyyy
 _______________   <- line 24 is usually here
 
 >wall=[-],pre=1,desc=2,gen=2,queen=2,king=2

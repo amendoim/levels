@@ -1,15 +1,15 @@
 >wall=[-],pre=1,desc=2,gen=2,queen=2,king=2
 _______________   15x21
-               
-               
-               
-               
-               
-               
-               
-              
-               
-               
+9   y         8
+    y           
+       xxxxx* 
+       xy+     
+       xvy    
+  x    xxxxxxx 
+  x       yvyx 
+  x  7    yvyx 
+  xxxxxxxxxxxx 
+      =          
                
                
                

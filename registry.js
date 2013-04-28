@@ -130,9 +130,9 @@ o.levelRegistry = [
   levelFiles: [
   "pedro/edges_gen_desc",
   "pedro/bomb_chess",
-  "pedro/p10",
-  "pedro/p11",
-  "pedro/p12",
+  "pedro/six_columns",
+  "pedro/fatal_reflection",
+  "pedro/shaken_shack",
   "pedro/s_hard_final",
   "pedro/p14",
   "pedro/p15",

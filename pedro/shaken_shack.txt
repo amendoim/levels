@@ -1,24 +1,24 @@
->wall=[-],pre=1,desc=2,gen=2,queen=2,king=2
+>wall= - ,pre=1,desc=2,gen=2,queen=2,king=2
 _______________   15x21
-               
-               
-               
-               
-               
-               
-               
-              
-               
-               
-               
-               
-               
-               
-               
-               
-               
-               
-               
+9             8
+  yyoorrrooyy   
+  =yyxooxoyx   
+   xyoxooxyy=   
+  =yyxooxoyx   
+   xyoxooxyy=   
+  =yyxooxoyx    
+   xyoxooxyy=    
+  =yyxooxoyx    
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+===         ===
+xxx         xxx
                
                
 _______________   <- line 24 is usually here
