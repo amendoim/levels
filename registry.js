@@ -134,7 +134,7 @@ o.levelRegistry = [
   "pedro/fatal_reflection",
   "pedro/shaken_shack",
   "pedro/s_hard_final",
-  "pedro/p14",
+  "pedro/fibonacci_bombs",
   "pedro/p15",
   ],
 },
