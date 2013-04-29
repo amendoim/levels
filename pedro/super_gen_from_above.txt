@@ -1,46 +1,12 @@
->wall=[-],pre=1,desc=2,gen=2,queen=2,king=2
-___________
-           
-           
-           
-           
-           
-           
-           
-           
-           
-           
-           
-           
-           
-           
-           
-           
-           
-           
-           
-           
-___________  <- line 23
+>wall=[ ],pre=1,desc=2,gen=0.2,queen=2,king=2
+_____________
 
->wall=[-],pre=1,desc=2,gen=2,queen=2,king=2
-_________________
-@               8
-@              
-+            
-               
-               
-               
-               
-               
-             
-             
-             
-%            xx 6 
-xxxxxxxx xxxxxxxx
-rrooybii iibyoorr
-rrooybii iibyoorr
-             
-             
+93rrrr+rrrr38
+ x=========x 
+ x:::::::::x 
+ x         x   
+ x         x   
+ x         x   
              
              
              

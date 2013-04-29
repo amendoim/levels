@@ -1,47 +1,23 @@
 >wall=[-],pre=1,desc=2,gen=2,queen=2,king=2
-___________
-           
-           
-           
-           
-           
-           
-           
-           
-           
-           
-           
-           
-           
-           
-           
-           
-           
-           
-           
-           
-___________  <- line 23
-
->wall=[-],pre=1,desc=2,gen=2,queen=2,king=2
-_____________
-9rrrrr+rrrrr6
- x=========x 
- x:::::::::x 
- x         x   
- x         x   
- x         x   
-               
-               
-             
-             
-             
-             
-             
-             
-             
-             
-             
-             
+_________________
+9               +
+  xxxxxxxxxxxxxxx
+7               8
+3333xxxxxxxxx33 
+9               6
+  33xxxxxxxxx3333
+7               8
+3333xxxxxxxxx33
+9               6
+  33xxxxxxxxx3333
+7               8
+3333xxxxxxxxx33   
+9               6
+  33xxxxxxxxx3333
+7               8
+3333xxxxxxxxx33
+9               6
+  33xxxxxxxxx3333
              
              
              

@@ -1,53 +1,52 @@
 >wall=[-],pre=1,desc=2,gen=2,queen=2,king=2
-___________
-           
-           
-           
-           
-           
-           
-           
-           
-           
-           
-           
-           
-           
-           
-           
-           
-           
-           
-           
-           
-___________  <- line 23
-
->wall=[-],pre=1,desc=2,gen=2,queen=2,king=2
-_________________
-9               +
-  xxxxxxxxxxxxxxx
-7               8
-3333xxxxxxxxx33 
-9               6
-  33xxxxxxxxx3333
-7               8
-3333xxxxxxxxx33
-9               6
-  33xxxxxxxxx3333
-7               8
-3333xxxxxxxxx33   
-9               6
-  33xxxxxxxxx3333
-7               8
-3333xxxxxxxxx33
-9               6
-  33xxxxxxxxx3333
+_______________
+              +
+              +
+   xxxxxxxxxxxx
+               
+               
+               
+9              
+:9             
+=:           
+ =           
+             
+             
+             
+             
+             
+             
              
              
              
              
              
 _____________  <- line 50
+>wall=[-],pre=1,desc=2,gen=2,queen=2,king=2
+_________________   17x23
+                +
+                +
+   xxxxxxxxxxxxxx
+               
+               
+               
+9              
+:9             
+=:           
+ =           
+
+
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+_________________   <- line 51 is usually here
 
 === settings === (inherited from defaults or from above)
 wall=[-], -> walls: [left   -top    right]

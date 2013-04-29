@@ -135,7 +135,7 @@ o.levelRegistry = [
   "pedro/shaken_shack",
   "pedro/s_hard_final",
   "pedro/fibonacci_bombs",
-  "pedro/p15",
+  "pedro/no_bombs_please",
   ],
 },
 
@@ -151,14 +151,14 @@ o.levelRegistry = [
   0x415bf5, // indigo
   ],
   levelFiles: [
-  "pedro/p16",
-  "pedro/p17",
-  "pedro/p18",
-  "pedro/p19",
-  "pedro/p20",
-  "pedro/p21",
-  "pedro/p22",
-  "pedro/p23",
+  "pedro/failing_rainbow",
+  "pedro/erratic_blocks",
+  "pedro/",
+  "pedro/",
+  "pedro/king_pyramid",
+  "pedro/make_big_mover",
+  "pedro/hard_escalator",
+  "pedro/enigma",
   ],
 },
 
@@ -174,9 +174,9 @@ o.levelRegistry = [
   0xf93c33, // red
   ],
   levelFiles: [
-  "pedro/p24",
-  "pedro/p25",
-  "pedro/p26",
+  "pedro/super_gen_from_above",
+  "pedro/gen_square_on_top",
+  "pedro/narrow_horizontal_launcher",
   "pedro/p27",
   "pedro/p28",
   "pedro/p29",

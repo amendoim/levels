@@ -1,14 +1,17 @@
->wall=[-],pre=1,desc=2,gen=2,queen=2,king=2
-___________
-           
-           
-           
-           
-           
-           
-           
-           
-           
+>wall=[-],pre=1,desc=5,gen=2,queen=2,king=5
+_______________
+9     8 9     8
+                  
+                 
+                 
+                 
+      x x      
+     xx xx     
+    xxx xxx    
+   xxxx xxxx   
+ 3=xxxx xxxxx  
+$3xxxxx xxxxxxy
+####### #######
            
            
            
@@ -22,31 +25,30 @@ ___________
            
 ___________  <- line 23
 
->wall=[],pre=1,desc=2,gen=2,queen=2,king=2
+>wall=[-],pre=2,desc=2,gen=2,queen=2,king=4
 _________________   17x23
- r r v v b b g g
- vrv bvb gbg ogo
- =v= =b= =g= =o= 
- ::: ::: ::: :::   
+9      8 9      8
                   
-               
                  
-                
-                  
-             =?= 
-             ::: 
-                  
-         =%=
-         :::       
-                
-     =%=          
-     :::        
-             
- =%=                
- :::         
-             
-             
-_______________   <- line 24 is usually here
+                 
+       x x       
+      xx xx      
+     xxx xxx     
+    xxxx xxxx    
+   xxxxx xxxxx   
+ 3=xxxxx xxxxxx  
+$xxxxxxx xxxxxxxy
+######## ########
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+_________________   <- line 51 is usually here
 
 === settings === (inherited from defaults or from above)
 wall=[-], -> walls: [left   -top    right]
