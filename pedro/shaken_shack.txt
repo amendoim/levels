@@ -1,34 +1,39 @@
->wall=[-],pre=1,desc=2,gen=2,queen=2,king=2
+>wall= - ,pre=1,desc=2,gen=2,queen=2,king=2
 _______________   15x21
-               
-               
-               
-               
-               
-               
-               
-               
-               
-               
-               
-               
-               
-               
-               
-               
-               
-               
-               
+9             8
+  yyoorrrooyy   
+  =yyxooxoyx   
+   xyoxooxyy=   
+  =yyxooxoyx   
+   xyoxooxyy=   
+  =yyxooxoyx    
+   xyoxooxyy=    
+  =yyxooxoyx    
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+===         ===
+xxx         xxx
                
                
 _______________   <- line 24 is usually here
 
->wall=[-],pre=1,desc=2,gen=2,queen=2,king=2
+>wall= - ,pre=1,desc=2,gen=2,queen=2,king=2
 _________________   17x23
-@@o          oooy
-######     ######
-*ooooooo@ooooooo*
-       =*=      
+9               8
+   yyoorrrooyy   
+   =yyxooxoyx   
+    xyoxooxyy=   
+   =yyxooxoyx   
+    xyoxooxyy=   
+   =yyxooxoyx    
+    xyoxooxyy=    
+   =yyxooxoyx    
                  
                  
                  
@@ -39,15 +44,10 @@ _________________   17x23
                  
                  
                  
-                 
-                 
-                 
-                 
-                 
-                 
-                 
-                 
-                
+===           ===
+xxx           xxx
+
+                   
 _________________   <- line 51 is usually here
 
 === settings === (inherited from defaults or from above)

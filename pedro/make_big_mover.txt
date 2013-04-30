@@ -1,5 +1,19 @@
 >wall=[-],pre=1,desc=2,gen=2,queen=2,king=2
-___________
+_______________
+3 3 3 3 3 3 3 3   
+xyx 3r3 xrx 3r3    
+::: ::: ::: :::     
+                   
+                   
+ ::                
+ =:     
+         
+     ::=     
+     :=           
+     :=:          
+                    
+ :::              
+ :=:              
            
            
            
@@ -22,30 +36,29 @@ ___________
            
 ___________  <- line 23
 
->wall=[-],pre=2,desc=2,gen=2,queen=2,king=4
+>wall=[ ],pre=2,desc=2,gen=2,queen=2,king=4
 _________________   17x23
-9      8 9      8
+ 3 3 3 3 3 3 3 3   
+ xyx 3r3 xrx 3r3    
+ ::: ::: ::: :::     
+                   
+                   
+  ::                
+  =:     
+         
+      ::=     
+      :=           
+      :=:          
+                    
+  :::              
+  :=:              
+                    
+                   
+                    
+                   
                   
-                 
-                 
-       x x       
-      xx xx      
-     xxx xxx     
-    xxxx xxxx    
-   xxxxx xxxxx   
- 3=xxxxx xxxxxx  
-$xxxxxxx xxxxxxxy
-######## ########
-                 
-                 
-                 
-                 
-                 
-                 
-                 
-                 
-                 
-_________________   <- line 51 is usually here
+           
+_________________
 
 === settings === (inherited from defaults or from above)
 wall=[-], -> walls: [left   -top    right]
@@ -55,7 +68,7 @@ gen=2,    -> generator period
 delay=0,  -> delta delay for each instance of descender and generator
 queen=2,  -> queen period
 king=2,   -> king period
-13=0      -> block 13 mode: 0) hides aim, 1) changes shoot angle, 2) jupiter gravity
+13=2      -> block 13 mode: 0) hides aim, 1) changes shoot angle, 2) jupiter gravity
 
 ==== blocks ==== (levels: 15x21 for small screens and 17x23 for larger)
 r red

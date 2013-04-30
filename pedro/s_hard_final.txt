@@ -1,15 +1,15 @@
 >wall=[-],pre=1,desc=2,gen=2,queen=2,king=2
 _______________   15x21
-               
-               
-               
-               
-               
-               
-               
-              
-               
-               
+9   y         8
+    y           
+       xxxxx* 
+       xy+     
+       xvy    
+  x    xxxxxxx 
+  x       yvyx 
+  x  7    yvyx 
+  xxxxxxxxxxxx 
+      =          
                
                
                
@@ -25,29 +25,29 @@ _______________   <- line 24 is usually here
 
 >wall=[-],pre=1,desc=2,gen=2,queen=2,king=2
 _________________   17x23
-@y@y@yy@yyy@yyyyy
-@yyyyyyyy@yyyyyyy
-yyyyyy@yyyyyyyyyy
-yyyyyyyyyyy@yyyyy
-yyyyyyyyyyyyyyyyy
-yyyyyyyyyyyyy@yyy
-yyyyyyyyyyyyyyyyy
-yyyyyyyyyyyyyyyyy
-yyyyyyyyyyyyyyyyy
-y@yyyyyyyyyyyyyyy        
-yyyyyyyyyyyyyyyyy                 
-yyyyyyyyyyyyyyyyy                 
-yyyyyyyyyyyyyyyyy
-yyyyyyyyyyyyyyyyy
-yyyyyy@yyyyyyyyyy
-yyyyyyyyyyyyyyyyy
-yyyyyyyyyyyyyyyyy                 
-yyyyyyyyyyyyyyyyy                 
-yyyyyyyyyyyyyyyyy                 
-yyyyyyyyyyyyyyyyy                 
-yyyyyyyyyyyyyyyyy                 
-yyyyyyyyyyyyyyyyy                 
-yyyyyyyyyyyyyyyyy               
+9    y          8
+     y           
+         xxxxx* 
+         xy+     
+         xvy    
+  x      xxxxxxx 
+  x         yvyx 
+  x  7      yvyx 
+  xxxxxxxxxxxxxx 
+      =          
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+
+                    
 _________________   <- line 51 is usually here
 
 === settings === (inherited from defaults or from above)

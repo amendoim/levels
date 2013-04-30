@@ -1,17 +1,14 @@
 >wall=[-],pre=1,desc=2,gen=2,queen=2,king=2
 _______________   15x21
                
-               
-               
-               
-               
-               
-               
-              
-               
-               
-               
-               
+    ==---==     
+    123$321    
+     yxxxy      
+     ooooo     
+     rr@rr      
+     yyyyy      
+     ooooo      
+     rrrrr      
                
                
                
@@ -23,17 +20,17 @@ _______________   15x21
                
 _______________   <- line 24 is usually here
 
->wall=[-],pre=1,desc=2,gen=2,queen=2,king=2
+>wall=[-],pre=2,desc=4,gen=4,queen=4,king=4
 _________________   17x23
                 
-  y@ygyg$gygy@y  
-  gygygygygygyg 
-  ygygygygygygy  
-  gygygygygygyg 
-  ygygygygygygy  
-  gygygygygygyg  
-  ygygygygygygy  
-  gygygygygygyg  
+     ==---==     
+     123$321    
+      yxxxy      
+      ooooo     
+      rr@rr      
+      yyyyy      
+      ooooo      
+      rrrrr      
                  
                  
                  
@@ -47,7 +44,7 @@ _________________   17x23
                  
                  
 
-                 
+                    
 _________________   <- line 51 is usually here
 
 === settings === (inherited from defaults or from above)
