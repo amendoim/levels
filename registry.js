@@ -112,7 +112,7 @@ o.levelRegistry = [
   "pedro/single_cannon",
   "pedro/quick_fall",
   "pedro/double_box_with_lock",
-  "pedro/raimbow_fall",
+  "pedro/rainbow_fall",
   ],
 },
 

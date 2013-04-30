@@ -4,16 +4,16 @@ _______________   15x21
                
   rrr     rrr   
    rrr   rrr  
-    rrr rrr   
+    rrr@rrr   
      rrrrr    
-      rrr     
+     @rrr@    
      rrrrr    
-    rrr rrr   
+    rrr@rrr   
    rrr   rrr  
   rrr     rrr   
                
   i i iii i i    
-  i i i i i i    
+  i@i i@i i@i    
   iii i i iii    
     i i i   i    
     i iii   i    
