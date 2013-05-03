@@ -73,7 +73,7 @@ o.levelRegistry = [
 { // blue area
   name: "Blue",
   baseColor: 0x35d1eb, 
-  curtainColor: 0x127798,
+  curtainColor: 0x08738a,
   colorIndex: 4,
   subColor: [
   0xf746f9, // violet
@@ -112,7 +112,7 @@ o.levelRegistry = [
   "pedro/single_cannon",
   "pedro/quick_fall",
   "pedro/double_box_with_lock",
-  "pedro/rainbow_fall",
+  "pedro/raimbow_fall",
   ],
 },
 
@@ -177,11 +177,11 @@ o.levelRegistry = [
   "pedro/super_gen_from_above",
   "pedro/gen_square_on_top",
   "pedro/narrow_horizontal_launcher",
-  "pedro/p27",
+  "pedro/mirror_snake",
   "pedro/p28",
   "pedro/p29",
   "pedro/p30",
-  "bench/1block" //"pedro/p31",
+  "pedro/p31",
   ],
 },
 
@@ -275,8 +275,6 @@ return {
 //=== scene 1: shot first ball lower
 // panel appears
   { 
-    times: 5,
-
     t: 0,
     duration: 0.5,
     op: 1,
