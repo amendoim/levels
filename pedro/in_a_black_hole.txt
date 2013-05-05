@@ -24,6 +24,30 @@ _______________   15x21
                
 _______________  <- line 24 - the bottom of the level
 
+_________________   17x23
+-----------------
+-     :rr:      -
+-     ::::      -
+-     +:!+      -
+-     ::::      -
+-               -
+-               -
+-               -
+-               -
+-               -
+-               -
+-               - 
+-               -
+-               - 
+-               -
+-               -
+-               -
+-               -
+             
+               
+               
+               
+_________________   <- line 51 is usually here
 
 === settings === (inherited from defaults or from above, all times in seconds)
 wall=[-], -> walls: [left   -top    right]
