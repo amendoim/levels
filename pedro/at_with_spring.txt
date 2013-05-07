@@ -1,28 +1,26 @@
->wall=[-],pre=1,desc=2,gen=2,queen=2,king=2
+>wall=   ,pre=1,desc=2,gen=2,queen=2,king=2
 _______________   15x21
 xxxxxxxxxxxxxxx
 x          %  x
-x   7      @  x
-x      xxxxr  x
-x      3333r  x
-x      3333   x
-x      3333   x
-x      xxxxxxxx
+x  7       @  x
+x     xxxxxr  x
+x     3333rr  x
+x     3333r   x
+x     3333r   x
+x     xxxxxxxxx
+               
+               
+                
+               
+                
                
                
                
                
+             
                
                
-               
-               
-               
-               
-               
-               
-               
-_______________   <- line 24 - the bottom of the level
-
+_______________  <- line 24 - the bottom of the level
 
 >wall=   ,pre=1,desc=2,gen=2,queen=2,king=2
 _________________
@@ -30,9 +28,9 @@ xxxxxxxxxxxxxxxxx
 x            %  x
 x   7        @  x
 x      xxxxxxr  x
-x      333333r  x
-x      333333   x
-x      333333   x
+x      33333rr  x
+x      33333r   x
+x      33333r   x
 x      xxxxxxxxxx
              
              
