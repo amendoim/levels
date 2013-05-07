@@ -1,4 +1,4 @@
->wall=[-],pre=1,desc=2,gen=2,queen=2,king=2,delay=0.66
+>wall=[-],pre=4,desc=2,gen=2,queen=2,king=2,delay=0.66
 _______________   15x21
    +   +   +   
                 
@@ -20,6 +20,38 @@ vvv  rr  oo  yy
                
                
 _______________   <- line 24 - the bottom of the level
+
+
+
+
+_________________   17x23
+    +   +   +   
+                
+               
+rr  oo  yy  ggggg
+ rr  oo  yy  gggg
+  rr  oo  yy  ggg
+v  rr  oo  yy  gg
+vv  rr  oo  yy  g
+vvv  rr  oo  yy
+vvvv  rr  oo  yy
+vvvvv  rr  oo  yy  
+------  --  --  -
+                   
+
+
+
+
+
+
+
+
+
+
+
+
+
+_________________   <- line 51 - the bottom of the level
 
 
 === settings === (inherited from defaults or from above, all times in seconds)

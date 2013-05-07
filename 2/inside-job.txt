@@ -17,13 +17,38 @@ _______________   15x21
                
                
                
-               
-               
-               
-               
+
                
                
 ______________   <- line 24 - the bottom of the level
+
+
+
+_________________   17x23
+-----------------
+-r             i-
+--------11-------
+               
+               
+               
+               
+      @     
+         
+    =            
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+_________________   <- line 51 - the bottom of the level
 
 
 === settings === (inherited from defaults or from above, all times in seconds)

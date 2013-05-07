@@ -1,12 +1,12 @@
 >wall=-,pre=1,desc=2,gen=2,queen=2,king=2,13=2
 _______________   15x21
-    g  ?  g                                                  
-                                                         
-                                                         
-                                                         
-                                                         
-                                                         
-x             x                                            
+bivrgb ? bgrvib                                              
+g             g                                          
+r             r                                          
+v             v                                          
+i             i                                          
+b             b                                          
+                                                           
 x             x                                            
 x             x                                            
 x             x                                            
@@ -22,6 +22,44 @@ x      %      x
              
              
 _______________   <- line 24 is usually here
+
+
+_________________   17x23
+gbivrgb ? bgrvibg                                             
+r               r                                         
+v               v                                          
+i               i                                          
+b               b                                          
+g               g                                          
+                                                             
+x               x                                            
+x               x                                            
+x               x                                            
+x       %       x                                            
+                  
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+_________________   <- line 51 - the bottom of the level
 
 === settings === (inherited from defaults or from above, all times in seconds)
 wall=[-], -> walls: [left   -top    right]

@@ -1,18 +1,18 @@
 >wall=[-],pre=1,desc=2,gen=2,queen=2,king=2
 _______________   15x21
-   v       v    
+   rrr   rrr    
                  
-v      v      v 
+ooo   ooo   ooo 
 
-   v       v    
+   yyy   yyy    
                  
-v      v      v 
+ggg   ggg   ggg 
 
-   v       v    
+   bbb   bbb    
                  
-v      v      v 
+iii   iii   iii 
 
-   v       v    
+   vvv   vvv    
                  
                
                
@@ -25,21 +25,19 @@ _______________   <- line 24 - the bottom of the level
 
 >wall=[-],pre=1,desc=2,gen=2,queen=2,king=2
 _________________   17x23
-    v       v    
+    rr     rr    
                  
-v       v       v 
+ooo    ooo    ooo 
                  
-    v       v    
+    yy     yy    
                  
-v       v       v 
+ggg    ggg    ggg 
                  
-    v       v    
+    bb     bb    
                  
-v       v       v 
+iii    iii    iii 
                  
-                 
-    v       v    
-                 
+    vv     vv    
                  
                  
                  
@@ -47,6 +45,8 @@ v       v       v
                  
                  
                  
+                 
+
                  
 _________________   <- line 51 - the bottom of the level
 

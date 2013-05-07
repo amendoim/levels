@@ -1,26 +1,28 @@
 >wall=[-],pre=1,desc=2,gen=2,queen=2,king=2
-___________
-           
-           
-           
-           
-           
-           
-           
-           
-           
-           
-           
-           
-           
-           
-           
-           
-           
-           
-           
-           
-___________  <- line 23
+_______________   15x21
+xxxxxxxxxxxxxxx
+x          %  x
+x   7      @  x
+x      xxxxr  x
+x      3333r  x
+x      3333   x
+x      3333   x
+x      xxxxxxxx
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+_______________   <- line 24 - the bottom of the level
+
 
 >wall=   ,pre=1,desc=2,gen=2,queen=2,king=2
 _________________
@@ -47,7 +49,7 @@ x      xxxxxxxxxx
              
              
              
-_____________  <- line 50
+_________________  <- line 50
 
 === settings === (inherited from defaults or from above)
 wall=[-], -> walls: [left   -top    right]

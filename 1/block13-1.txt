@@ -1,11 +1,12 @@
 >wall=,pre=1,desc=2,gen=2,queen=2,king=2,13=1
 _______________   15x21
                                         
+       y                                 
        x                                 
                                         
        y                                 
        ?                                 
-                                        
+    y     y                               
     x     x     
                                         
                                         

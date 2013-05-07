@@ -1,27 +1,24 @@
->wall=,pre=1,desc=1.5
+>wall=[],pre=1,desc=2,gen=2,queen=2,king=2
 _______________   15x21
-     ::!::          
-     :::::          
-     3iii3       
-     xi@ix       
-     xiiix       
-     xrrrx       
-     xr@rx       
-      xrx        
-       x        
+             
+     - r -        
                
+    - o o -       
                
+   - - y - -    
                
+    - - - -        
                
-      ::::=        
-    #            
+     - - -               
+              
                
-               
-               
-               
-               
-_______________   <- line 24 - the bottom of the level
-
+             
+             
+             
+             
+             
+             
+_______________   <- line 24 is usually here
 
 === settings === (inherited from defaults or from above, all times in seconds)
 wall=[-], -> walls: [left   -top    right]

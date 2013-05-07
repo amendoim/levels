@@ -1,29 +1,59 @@
->wall=,pre=1,desc=1.5
+>wall=[-],pre=1,desc=2,gen=0.9,queen=2,king=2
 _______________   15x21
-     ::!::          
-     :::::          
-     3iii3       
-     xi@ix       
-     xiiix       
-     xrrrx       
-     xr@rx       
-      xrx        
-       x        
+y              
+x=           * 
+xxy            
+xox=           
+xooxy          
+xooox=         
+xooooxy        
+xooooox=       
+xoo@oooxy       
+xoo@@ooox=     
+xooooooooxy    
+xooooooooox=  
+xxxxxxxxxxxxxyy
                
                
                
                
-      ::::=        
-    #            
                
                
                
                
-               
-_______________   <- line 24 - the bottom of the level
+______________   <- line 24 - the bottom of the level
 
 
-=== settings === (inherited from defaults or from above, all times in seconds)
+_________________   17x23
+y              
+x=             
+xxy           *
+xox=           
+xooxy          
+xooox=         
+xooooxy        
+xooooox=       
+xooooooxy       
+xooooooox=     
+xooooooooxy    
+xoo@oooooox=  
+xoo@@ooooooxy
+xooooooooooox=
+xxxxxxxxxxxxxxxyy
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+_________________   <- line 51 - the bottom of the level
+
+
+
+
+==== settings === (inherited from defaults or from above, all times in seconds)
 wall=[-], -> walls: [left   -top    right]
 pre=1,    -> initial peace time
 desc=2//,   -> descender period/delay/pre, delay/pre are optional

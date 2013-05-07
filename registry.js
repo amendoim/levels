@@ -5,7 +5,7 @@ var help = levelGetHelp();
 
 /* must be synced with: yp.CONST.
   PARTS: 7,
-  PART_LEVELS: 8,
+  PART_LEVELS: 10,
 
 Official back palette:
   0xf93c33, // red
@@ -37,13 +37,19 @@ o.levelRegistry = [
   "1/bombs",
   "1/balleater-1",
   "1/movers",
-  "1/--generator",
+  "1/attractor",
+  "--",
+  "bench/test",
   ],
   help: [
     help["shooting"],
     null,
+    help["mover"],
+    help["no-top"],
+    help["bomb"],
+    help["ball-eater"],
     null,
-    help["no-top"]
+    help["attractor"],
   ],
 },
 
@@ -59,15 +65,25 @@ o.levelRegistry = [
   0xf5e516, // yellow
   ],
   levelFiles: [
-  "1/attractor",
-  "1/balleater-2",
-  "1/--outro",
+  "1/tea-break",
   "1/mirror-grid",
   "1/descender-attack",
   "1/block13-1",
+  "1/t-struct",
   "1/stairs",
-  "bench/1block", // --queen
+  "1/mt-gox",
+  "1/rhythm",
+  "--",
+  "--",
   ],
+  help: [
+    null,
+    help["mirror"],
+    help["descender"],
+    help["block13"],
+    help["glue"],
+    help["generator"],
+  ]
 },
 
 { // blue area
@@ -82,14 +98,16 @@ o.levelRegistry = [
   0x415bf5, // indigo
   ],
   levelFiles: [ 
-  "2/tea-break",
+  "2/block13-2",
   "2/rocket-1",
-  "2/rocket-2",
   "2/spring-uterus",
   "2/descender-head",
-  "2/block13-0",
-  "2/king-1",
+  "2/inside-job",
+  "2/",
+  "2/rocket-2",
   "2/queen-1",
+  "--",
+  "--",
   ],
 },
 
@@ -105,14 +123,16 @@ o.levelRegistry = [
   0xf93c33, // red
   ],
   levelFiles: [
-  "pedro/p0",
-  "pedro/p1",
-  "pedro/p2",
+  "2/block13-0",
+  "2/armored-menace",
+  "",
   "pedro/single_line_bomb",
   "pedro/single_cannon",
   "pedro/quick_fall",
   "pedro/double_box_with_lock",
   "pedro/rainbow_fall",
+  "--",
+  "--",
   ],
 },
 
@@ -136,6 +156,8 @@ o.levelRegistry = [
   "pedro/s_hard_final",
   "pedro/fibonacci_bombs",
   "pedro/no_bombs_please",
+  "--",
+  "--",
   ],
 },
 
@@ -159,6 +181,8 @@ o.levelRegistry = [
   "pedro/make_big_mover",
   "pedro/hard_escalator",
   "pedro/enigma",
+  "--",
+  "--",
   ],
 },
 
@@ -181,7 +205,9 @@ o.levelRegistry = [
   "pedro/p28",
   "pedro/p29",
   "pedro/p30",
-  "bench/1block" //"pedro/p31",
+  "bench/1block", //"pedro/p31",
+  "--",
+  "--",
   ],
 },
 
@@ -284,7 +310,7 @@ return {
     beginTu: [50, -20],
     endTu: [50, 18],
 
-    text: "Full Shoot marbles to clear color blocks!\n\n(touch to skip)",
+    text: "Shoot balls to clear color blocks!\n\n(touch to skip)",
     lineWidth: 60,
   },
 
@@ -469,15 +495,16 @@ return {
   },
 
 
+
   { 
     t: -1.5,
     duration: 0.5,
     op: 1,
 
-    beginTu: [50, -20],
-    endTu: [50, 18],
+    beginTu: [130, 60],
+    endTu: [50, 60],
 
-    text: "Clear all color blocks to complete the level!",
+    text: "Hit all color blocks to complete the level!",
     lineWidth: 50,
   },
 
@@ -500,7 +527,7 @@ return {
     duration: 0.5,
     op: 1,
 
-    endTu: [50, -20],
+    endTu: [130, 60],
   },
 
 ],
@@ -540,6 +567,39 @@ return {
 
 
 
+
+"mover": [
+// panel appears
+  { 
+    t: 0,
+    duration: 0.7,
+    op: 1,
+
+    beginTb: [-8, 14],
+    endTb: [7.5, 14],
+
+    pointer: 3,
+    pointerAngle: 65,
+    pointerTo: [7.5, 10],
+
+    text: "Hit these blocks to move them",
+    lineWidth: 45,
+  },
+
+// panel out
+  { 
+    t: -6.5,
+    duration: 0.7,
+    op: 1,
+
+    endTb: [23, 14],
+
+    pointer: -1,
+  },
+],
+
+
+
 "no-top": [
 // panel appears
   { 
@@ -547,24 +607,279 @@ return {
     duration: 0.7,
     op: 1,
 
-    beginTu: [50, -25],
-    endTb: [7.5, 3],
+    beginTu: [65, -25],
+    endTb: [10, 4],
 
     pointer: 3,
     pointerAngle: 90,
-    pointerTo: [13, -0.25],
+    pointerTo: [12, -0.25],
 
-    text: "This level has no top wall",
-    lineWidth: 80,
+    text: "Some levels have no top wall",
+    lineWidth: 40,
   },
 
 // panel out
   { 
     t: -5,
-    duration: 100.7,
+    duration: 0.7,
     op: 1,
 
-    endTu: [50, -25],
+    endTu: [65, -25],
+
+    pointer: -1,
+  },
+],
+
+
+
+
+"bomb": [
+// panel appears
+  { 
+    t: 0,
+    duration: 0.7,
+    op: 1,
+
+    beginTb: [-8, 9.5],
+    endTb: [7.5, 9.5],
+
+    pointer: 3,
+    pointerAngle: 60,
+    pointerTo: [7.8, 6],
+
+    text: "This is a bomb block!",
+    lineWidth: 40,
+  },
+
+// panel out
+  { 
+    t: -5,
+    duration: 0.7,
+    op: 1,
+
+    endTb: [23, 9.5],
+
+    pointer: -1,
+  },
+],
+
+
+"ball-eater": [
+// panel appears
+  { 
+    t: 0,
+    duration: 0.7,
+    op: 1,
+
+    beginTb: [-8, 14],
+    endTb: [7.5, 14],
+
+    pointer: 3,
+    pointerAngle: 45,
+    pointerTo: [7.8, 10],
+
+    text: "This block destroys balls",
+    lineWidth: 45,
+  },
+
+// panel out
+  { 
+    t: -5,
+    duration: 0.7,
+    op: 1,
+
+    endTb: [23, 14],
+
+    pointer: -1,
+  },
+],
+
+
+
+"attractor": [
+// panel appears
+  { 
+    t: 0,
+    duration: 0.7,
+    op: 1,
+
+    beginTb: [23, 10],
+    endTb: [9, 10],
+
+    pointer: 3,
+    pointerAngle: 90,
+    pointerTo: [11.4, 7],
+
+    text: "This block attracts balls",
+    lineWidth: 65,
+  },
+
+// panel out
+  { 
+    t: -5,
+    duration: 0.7,
+    op: 1,
+
+    endTb: [-8, 10],
+
+    pointer: -1,
+  },
+],
+
+
+"mirror": [
+// panel appears
+  { 
+    t: 0,
+    duration: 0.7,
+    op: 1,
+
+    beginTb: [23, 15],
+    endTb: [9, 15],
+
+    pointer: 3,
+    pointerAngle: 85,
+    pointerTo: [9.4, 12],
+
+    text: "This is a mirror block",
+    lineWidth: 65,
+  },
+
+// panel out
+  { 
+    t: -5,
+    duration: 0.7,
+    op: 1,
+
+    endTb: [-8, 15],
+
+    pointer: -1,
+  },
+],
+
+
+
+"descender": [
+// panel appears
+  { 
+    t: 0,
+    duration: 0.7,
+    op: 1,
+
+    beginTb: [23, 15],
+    endTb: [8, 9],
+
+    pointer: 3,
+    pointerAngle: 45,
+    pointerTo: [8, 5.1],
+
+    text: "This block attacks down!\nIf it crosses the bottom line it's game over",
+    lineWidth: 65,
+  },
+
+// panel out
+  { 
+    t: -5,
+    duration: 0.7,
+    op: 1,
+
+    endTb: [23, 15],
+
+    pointer: -1,
+  },
+],
+
+
+
+"block13": [
+// panel appears
+  { 
+    t: 0,
+    duration: 0.7,
+    op: 1,
+
+    beginTb: [23, 15],
+    endTb: [8, 10],
+
+    pointer: 3,
+    pointerAngle: 45,
+    pointerTo: [8, 6.1],
+
+    text: "This dark block mysteriously affects aiming...",
+    lineWidth: 45,
+  },
+
+// panel out
+  { 
+    t: -6.5,
+    duration: 0.7,
+    op: 1,
+
+    endTb: [23, 15],
+
+    pointer: -1,
+  },
+],
+
+
+
+"glue": [
+// panel appears
+  { 
+    t: 0,
+    duration: 0.7,
+    op: 1,
+
+    beginTb: [-8, 15],
+    endTb: [8, 6.5],
+
+    pointer: 3,
+    pointerAngle: 85,
+    pointerTo: [11.4, 3.1],
+
+    text: "Glue blocks stick together",
+    lineWidth: 45,
+  },
+
+// panel out
+  { 
+    t: -6.5,
+    duration: 0.7,
+    op: 1,
+
+    endTb: [23, 15],
+
+    pointer: -1,
+  },
+],
+
+
+
+"generator": [
+// panel appears
+  { 
+    t: 0,
+    duration: 0.7,
+    op: 1,
+
+    beginTb: [23, 15],
+    endTb: [11, 6.5],
+
+    pointer: 3,
+    pointerAngle: 45,
+    pointerTo: [12.1, 1],
+
+    text: "This block generates new color blocks.\nIf they reach the bottom it's game over",
+    lineWidth: 43,
+  },
+
+// panel out
+  { 
+    t: -6.5,
+    duration: 0.7,
+    op: 1,
+
+    endTb: [23, 15],
 
     pointer: -1,
   },
