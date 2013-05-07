@@ -131,6 +131,8 @@ o.levelRegistry = [
   "pedro/quick_fall",
   "pedro/double_box_with_lock",
   "pedro/rainbow_fall",
+  "--",
+  "--",
   ],
 },
 
@@ -204,6 +206,8 @@ o.levelRegistry = [
   "pedro/three_alone",
   "pedro/no_aim",
   "bench/test",
+  "--",
+  "--",
   ],
 },
 
