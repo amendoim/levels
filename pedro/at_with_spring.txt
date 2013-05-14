@@ -1,12 +1,12 @@
 >wall=   ,pre=1,desc=2,gen=2,queen=2,king=2
 _______________   15x21
-xxxxxxxxxxxxxxx
+xxxxxx-----xxxx
 x          %  x
 x  7       @  x
 x     xxxxxr  x
 x     3333rr  x
 x     3333r   x
-x     3333r   x
+x     3333@   x
 x     xxxxxxxxx
                
                
@@ -24,13 +24,13 @@ _______________  <- line 24 - the bottom of the level
 
 >wall=   ,pre=1,desc=2,gen=2,queen=2,king=2
 _________________
-xxxxxxxxxxxxxxxxx
+xxxxxxx------xxxx
 x            %  x
 x   7        @  x
 x      xxxxxxr  x
 x      33333rr  x
 x      33333r   x
-x      33333r   x
+x      33333@   x
 x      xxxxxxxxxx
              
              

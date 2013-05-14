@@ -212,7 +212,7 @@ o.levelRegistry = [
   "pedro/at_with_spring",
   "pedro/three_alone",
   "pedro/no_aim",
-  "bench/test",
+  "pedro/test",
   "--",
   "--",
   ],
