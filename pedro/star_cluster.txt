@@ -1,0 +1,100 @@
+>wall=   ,pre=1,desc=2,gen=0.5,queen=2,king=2
+_______________   15x21
+
+
+      x+x       
+*     r r     *
+      r r      
+*     r r     *
+      r r      
+*     r r     *
+               
+*             *
+                
+               
+                
+               
+               
+               
+               
+             
+               
+               
+_______________  <- line 24 - the bottom of the level
+
+>wall=   ,pre=1,desc=2,gen=2,queen=2,king=2
+_________________
+                 
+                 
+       x+x       
+*      r r      *
+       r r      
+*      r r      *
+       r r      
+*      r r      *
+               
+*               *
+                 
+                 
+                 
+                 
+                 
+                 
+             
+             
+             
+                  
+                 
+                 
+                 
+             
+             
+             
+             
+             
+             
+             
+             
+_________________  <- line 50
+
+=== settings === (inherited from defaults or from above)
+wall=[-], -> walls: [left   -top    right]
+pre=1,    -> initial peace time
+desc=2,   -> descender period (all in seconds)
+gen=2,    -> generator period
+queen=2,  -> queen period
+king=2,   -> king period
+
+==== blocks ====
+levels are 11x20 for small screens and 13x23 for larger
+r red
+o orange
+y yellow
+g green
+b blue
+i indigo
+v violet
+x solid grey
+
+# fixed
+- ball eater
+= mover
+* repeller
+% spring
+
+6 mirror left-top    /|
+7 mirror right-top  ---  |\   ___
+8 mirror left-bottom     ---   \|  ___
+9 mirrot right-bottom              |/ 
+
+1 hit 1
+2 hit 2
+3 hit 3
+
+@ bomb
+! descender
++ generator
+
+& queen
+$ king
+? 13

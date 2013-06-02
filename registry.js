@@ -131,6 +131,8 @@ o.levelRegistry = [
   "pedro/quick_fall",
   "pedro/double_box_with_lock",
   "pedro/rainbow_fall",
+  "pedro/fill_swimming_pool",
+  "pedro/star_cluster",
   ],
 },
 
@@ -154,8 +156,8 @@ o.levelRegistry = [
   "pedro/s_hard_final",
   "pedro/fibonacci_bombs",
   "pedro/no_bombs_please",
-  "--",
-  "--",
+  "pedro/lateral_king",
+  "pedro/a_window",
   ],
 },
 
@@ -179,7 +181,7 @@ o.levelRegistry = [
   "pedro/make_big_mover",
   "pedro/hard_escalator",
   "pedro/enigma",
-  "--",
+  "pedro/a_colors_island",
   "--",
   ],
 },
