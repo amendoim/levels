@@ -8,13 +8,13 @@ var help = levelGetHelp();
   PART_LEVELS: 10,
 
 Official back palette:
-  0xf93c33, // red
-  0xf25d0c, // orange
-  0xf5e516, // yellow
-  0x0ecb0e, // green
-  0x35d1eb, // blue,
-  0x415bf5, // indigo
   0xf746f9, // violet
+  0x415bf5, // indigo
+  0x35d1eb, // blue,
+  0x0ecb0e, // green
+  0xf5e516, // yellow
+  0xf25d0c, // orange
+  0xf93c33, // red
 */
 
 o.levelRegistry = [
@@ -28,13 +28,14 @@ o.levelRegistry = [
   0x415bf5, // indigo
   0xf25d0c, // orange
   0x35d1eb, // blue,
+  0x0ecb0e, // green  
   ],
   levelFiles: [
   "1/stars",
   "1/dots",
-  "1/barrier-1",
   "1/no-top",
   "1/bombs",
+  "1/barrier-1",
   "1/balleater-1",
   "1/movers",
   "1/attractor",
@@ -43,10 +44,10 @@ o.levelRegistry = [
   ],
   help: [
     help["shooting"],
-    null,
-    help["mover"],
+    help["solid"],
     help["no-top"],
     help["bomb"],
+    help["mover"],
     help["ball-eater"],
     null,
     help["attractor"],
@@ -63,6 +64,7 @@ o.levelRegistry = [
   0x0ecb0e, // green  
   0xf746f9, // violet
   0xf5e516, // yellow
+  0xf25d0c, // orange
   ],
   levelFiles: [
   "1/tea-break",
@@ -96,6 +98,7 @@ o.levelRegistry = [
   0x0ecb0e, // green
   0xf5e516, // yellow
   0x415bf5, // indigo
+  0xf93c33, // red
   ],
   levelFiles: [ 
   "2/block13-2",
@@ -103,7 +106,7 @@ o.levelRegistry = [
   "2/spring-uterus",
   "2/descender-head",
   "2/inside-job",
-  "2/",
+  "2/suspense",
   "2/rocket-2",
   "2/queen-1",
   "--",
@@ -121,6 +124,7 @@ o.levelRegistry = [
   0xf5e516, // yellow
   0x415bf5, // indigo
   0xf93c33, // red
+  0xf746f9, // violet
   ],
   levelFiles: [
   "pedro/p0",
@@ -146,6 +150,7 @@ o.levelRegistry = [
   0x35d1eb, // blue,
   0xf25d0c, // orange
   0x0ecb0e, // green  
+  0xf746f9, // violet
   ],
   levelFiles: [
   "pedro/edges_gen_desc",
@@ -171,6 +176,7 @@ o.levelRegistry = [
   0x0ecb0e, // green
   0x35d1eb, // blue,
   0x415bf5, // indigo
+  0xf746f9, // violet
   ],
   levelFiles: [
   "pedro/failing_rainbow",
@@ -194,6 +200,7 @@ o.levelRegistry = [
   subColor: [
   0xf746f9, // violet
   0xf25d0c, // orange
+  0x0ecb0e, // green
   0x415bf5, // indigo
   0xf93c33, // red
   ],
@@ -205,7 +212,9 @@ o.levelRegistry = [
   "pedro/at_with_spring",
   "pedro/three_alone",
   "pedro/no_aim",
-  "bench/test",
+  "pedro/test",
+  "--",
+  "--",
   ],
 },
 
@@ -509,7 +518,7 @@ return {
 // end: move down
   { 
 //    t: -1,
-    duration: 2.5,
+    duration: 3.5,
     op: 0,
 
     endTg: [65, 110],
@@ -531,7 +540,8 @@ return {
 
 
 
-"3hits": [
+
+"solid": [
 // panel appears
   { 
     t: 0,
@@ -542,15 +552,15 @@ return {
     endTb: [7.5, 3],
 
     pointer: 1,
-    pointerTo: [10.25, 6.5],
+    pointerTo: [9, 6.45],
 
-    text: "These blocks need up to 3 hits to be destroyed",
+    text: "Gray blocks cannot be destroyed",
     lineWidth: 80,
   },
 
 // panel out
   { 
-    t: -5,
+    t: -4.5,
     duration: 0.5,
     op: 1,
 
@@ -559,9 +569,6 @@ return {
     pointer: -1,
   },
 ],
-
-
-
 
 
 "mover": [
@@ -600,18 +607,18 @@ return {
 // panel appears
   { 
     t: 0,
-    duration: 0.7,
+    duration: 1,
     op: 1,
 
-    beginTu: [65, -25],
-    endTb: [10, 4],
+    beginTg: [50, 115],
+    endTb: [7, 3],
 
     pointer: 3,
     pointerAngle: 90,
     pointerTo: [12, -0.25],
 
     text: "Some levels have no top wall",
-    lineWidth: 40,
+    lineWidth: 50,
   },
 
 // panel out
@@ -620,7 +627,7 @@ return {
     duration: 0.7,
     op: 1,
 
-    endTu: [65, -25],
+    endTu: [50, -25],
 
     pointer: -1,
   },
@@ -769,7 +776,7 @@ return {
     pointerAngle: 45,
     pointerTo: [8, 5.1],
 
-    text: "This block attacks down!\nIf it crosses the bottom line it's game over",
+    text: "This block attacks down!\nIf it crosses the bottom line it's game over!",
     lineWidth: 65,
   },
 
@@ -801,8 +808,8 @@ return {
     pointerAngle: 45,
     pointerTo: [8, 6.1],
 
-    text: "This dark block mysteriously affects aiming...",
-    lineWidth: 45,
+    text: "This dark block interferes with aiming.\nHit it to return to normal",
+    lineWidth: 60,
   },
 
 // panel out
@@ -884,6 +891,36 @@ return {
 
 
 
+/*
+"3hits": [
+// panel appears
+  { 
+    t: 0,
+    duration: 0.7,
+    op: 1,
+
+    beginTu: [50, -25],
+    endTb: [7.5, 3],
+
+    pointer: 1,
+    pointerTo: [10.25, 6.5],
+
+    text: "These blocks need up to 3 hits to be destroyed",
+    lineWidth: 80,
+  },
+
+// panel out
+  { 
+    t: -5,
+    duration: 0.5,
+    op: 1,
+
+    endTu: [50, -25],
+
+    pointer: -1,
+  },
+],
+*/
 
 
 

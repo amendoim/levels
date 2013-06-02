@@ -7,7 +7,7 @@ _______________   15x21
       ror     
        r     
               
-     xxxxx    
+    vibgyor   
               
        v       
       viv    

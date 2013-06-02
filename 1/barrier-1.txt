@@ -1,6 +1,6 @@
 >wall=[-],pre=1,desc=2,gen=2,queen=2,king=2
 _______________   15x21
-rrrrrrrrrrrrrrr                 
+@rrrrrrrrrrrrr@
 r             r
 r             r
 r  i       i  r  
@@ -8,7 +8,7 @@ r ivi     ivi r
 r  i       i  r  
 r             r
 r             r
-rrrrrrrrrrrrrrr
+@rrrrrrrrrrrrr@
 xxxxxx===xxxxxx
                
                
@@ -25,7 +25,7 @@ _______________   <- line 24 - the bottom of the level
 
 >wall=[-],pre=1,desc=2,gen=2,queen=2,king=2
 _________________   17x23
-rrrrrrrrrrrrrrrrr                 
+@rrrrrrrrrrrrrrr@
 r               r
 r               r
 r   i       i   r  
@@ -33,7 +33,7 @@ r  ivi     ivi  r
 r   i       i   r  
 r               r
 r               r
-rrrrrrrrrrrrrrrrr
+@rrrrrrrrrrrrrrr@
 xxxxxxx===xxxxxxx
                  
                  
