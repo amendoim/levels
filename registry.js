@@ -109,8 +109,8 @@ o.levelRegistry = [
   "2/suspense",
   "2/rocket-2",
   "2/queen-1",
-  "--",
-  "--",
+  "pedro/failling_box",
+  "pedro/worse_door",
   ],
 },
 
@@ -188,7 +188,7 @@ o.levelRegistry = [
   "pedro/hard_escalator",
   "pedro/enigma",
   "pedro/a_colors_island",
-  "--",
+  "pedro/hole_in_onev",
   ],
 },
 
@@ -212,9 +212,9 @@ o.levelRegistry = [
   "pedro/at_with_spring",
   "pedro/three_alone",
   "pedro/no_aim",
-  "pedro/test",
-  "--",
-  "--",
+  "pedro/hair_cut",
+  "pedro/moving",
+  "pedro/train",
   ],
 },
 
